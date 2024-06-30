@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabic Speech-to-Text</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="container">
+        <h1>Quran Pronunciation Quiz</h1>
+        <p id="verse">{{ question['verse'] }}</p>
+        <div class="options">
+            <p>ت. {{question['options'][0] }}</p>
+            <p>ب. {{question['options'][1] }}</p>
+            <p>أ. {{question['options'][2] }}</p>
+        </div>
+        <button id="startRecordingButton">Start Recording</button>
+        <button id="submitAudioButton" disabled>Submit Pronunciation</button>
+        <button id="changeQuestionButton">Change Question</button>
+        <input type="hidden" id="questionIndex" value="{{ index }}">
+        <p id="feedback"></p>
+        <audio id="audioPlayback" controls style="display: none;"></audio>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
