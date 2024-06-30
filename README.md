@@ -25,8 +25,9 @@ The project is designed to help users practice Quranic pronunciation through a s
 4.  **Set Up Hugging Face Token**: Replace the placeholder token in the `app.py` with your user-generated Hugging Face token.
 5.  **Run the Application**:
     
-    bash    
-    `python app.py`
+    ```bash  
+    python app.py
+    ```
     
 6.  **Access the Application**: Open a web browser and go to `http://localhost:5000` to access the quiz.
 
@@ -42,6 +43,11 @@ The quiz is visually presented within a spacious white container against a semi-
 *   A feedback area displaying the result of the pronunciation check.
 *   An audio playback control for users to listen to their recordings.
 *   If no audio is detected, a message "No audio detected." is displayed.
+
+  The following is a working example about how to use the application:
+  [![Video](http://img.youtube.com/vi/mVVOVrB1_zo/0.jpg)](https://www.youtube.com/watch?v=mVVOVrB1_zo)
+
+
 
 Limitations of the Solution
 ---------------------------
