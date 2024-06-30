@@ -7,7 +7,6 @@ The project is designed to help users practice Quranic pronunciation through a s
 - **Flask**: A lightweight web framework for serving the application and handling requests.
 - **HTML/CSS**: For structuring and styling the web interface, ensuring a responsive and visually appealing design.
 - **JavaScript**: For client-side functionality, including recording audio, handling API responses, and updating the UI dynamically.
-- **Google Fonts**: Used to enhance the visual appeal of text with modern fonts for both Arabic and English.
 - **[Hugging Face Model](https://huggingface.co/bakrianoo/sinai-voice-ar-stt)**: Utilized to convert recorded audio into text for comparison against the correct answer.
 
 ## Setup and How to Run
