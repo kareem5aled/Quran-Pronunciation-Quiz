@@ -7,7 +7,7 @@ import re
 app = Flask(__name__)
 
 API_URL = "https://api-inference.huggingface.co/models/bakrianoo/sinai-voice-ar-stt"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer hf_xxxxxxxxxxxxxxxxxxxxxxxxx"}
 
 questions = [
     {
